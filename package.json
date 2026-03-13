@@ -1,0 +1,18 @@
+{
+  "name": "wallet-roast",
+  "version": "1.0.0",
+  "description": "Get brutally roasted based on your onchain behavior",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "vitest run"
+  },
+  "keywords": ["ethereum", "base", "wallet", "roast", "cli", "web3", "fun"],
+  "author": "7abar",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
